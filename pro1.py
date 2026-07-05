@@ -176,4 +176,8 @@ if st.button("Predict"):
     prediction = model.predict(input_df)[0]
 
     st.success(f"Predicted Claim Amount: {prediction:.2f}")
+
+    # Updated Streamlit UI (regression-safe)
+
+    
     
